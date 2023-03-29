@@ -13,6 +13,7 @@
 .foto{
      width: 100%;
      height: 100%;
+     display: none;
 }
 
 .thumbnails .active{
@@ -21,4 +22,8 @@
 
 .prev i, .next i{
      cursor: pointer;
+}
+
+.foto.active{
+     display: block;
 }
